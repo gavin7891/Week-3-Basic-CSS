@@ -1,0 +1,124 @@
+/* 5_css1.css */
+
+/* Page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  margin: 0;
+}
+
+/* Centered light-blue  */
+body > h1,
+body > article {
+  width: 82%;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c6e0ea;            
+}
+
+/* Title */
+h1 {
+  margin: 24px auto 0 auto;
+  padding: 18px 0 10px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+/* Section headings */
+article {
+  padding: 6px 18px 18px 18px;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 10px 0 8px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 12px 0 6px 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Paragraphs */
+p {
+  font-size: 9px;
+  line-height: 1.35;
+  margin: 6px 0;
+}
+
+/* 2nd paragraph special box (width/margin/padding/border/line-height) */
+#paragraph2 {
+  background: #e8eae8;
+  border: 1px solid #9a9a9a;
+  width: 62%;
+  margin: 10px 0 10px 34px;   /* indented box */
+  padding: 10px 12px;
+  line-height: 1.6;
+}
+
+/* 3rd paragraph: muted blue/gray bar with green border */
+article section:nth-of-type(2) p:first-child {
+  background: #9cb9c7;
+  border-top: 3px solid #2f7d32;
+  border-bottom: 3px solid #2f7d32;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+/* 4th & 5th paragraphs: dark blue bars with light text */
+.blue {
+  background: #454d9e;     
+  color: #f2f2f2;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+
+a {
+  color: #1a4aa8;
+}
+
+ol a {
+  color: #1a4aa8;          
+}
+
+a[href*="w3schools"] {
+  color: #9c3b2f;         
+}
+
+/* Ordered list */
+ol {
+  list-style-type: decimal-leading-zero;
+  padding-left: 28px;
+  margin: 6px 0 10px 0;
+  font-size: 10px;
+}
+
+/* Table styling  */
+table {
+  border-collapse: collapse;      /* makes borders overlap */
+  font-size: 9px;
+  width: 360px;
+  margin-top: 6px;
+}
+
+th, td {
+  border: 1px solid #6f6f6f;
+  padding: 2px 6px;
+  vertical-align: top;
+}
+
+th {
+  background: #d9d9d9;
+  font-weight: 700;
+}
+
+td {
+  background: #ffffff;
+}
